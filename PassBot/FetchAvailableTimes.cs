@@ -25,7 +25,7 @@ public class FetchAvailableTimes
             _client = new HttpClient();
             _client.DefaultRequestHeaders.Accept.Clear();
             _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            _client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0");
+            _client.DefaultRequestHeaders.Add("User-Agent", "PassBot/0.1");
         }
     }
 
